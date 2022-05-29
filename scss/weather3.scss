@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    position: relative;
+    height: 100%;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+
+.font24 {
+    font-size: 24px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+#scene{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+
+// 開始
+section {
+    
+    position: relative;
+    width: 100%;
+    height: 100vh !important;
+    background-color: rgb(111, 130, 123);
+    overflow: hidden;
+
+    .container {
+        height: 100vh !important;
+
+
+        .sunn {
+            width: 70px;
+            position: absolute;
+            top: 70px;
+            right: 450px;
+            z-index: 10;
+            transition: .8s;
+        }
+
+        h2 {
+            position: absolute;
+            top: 80px;
+            right: 260px;
+            z-index: 10;
+            transition: .1s;
+
+            &:hover {
+                font-size: 38px;
+                top: 65px;
+                right: 245px;
+
+                .sunn {
+                    right: 480px;
+
+                }
+
+            }
+
+            span {
+                color: #E1B376;
+            }
+        }
+
+        .downBox {
+            // width: 100%;
+            height: calc(100% - 90px);
+
+
+
+            .bigRow {
+                // .conLeft {
+
+
+                // }
+
+                .conLeft {
+                    .mapBox {
+                        width: 90%;
+                        height: 60%;
+                        // margin: 0 auto;
+                        border-radius: 15px;
+                    }
+
+                }
+
+
+                .conRightBox {
+                    .conRight {
+                        position: relative;
+
+                        .conCenter {
+
+                            .nav-pills {
+                                .nav-link {
+                                    border-radius: 0.5rem;
+                                    color: #6F827B;
+                                    background-color: #E1B376;
+
+                                    &:hover {
+                                        background-color: rgba(206, 149, 106, .8);
+                                        color: rgb(255, 255, 255);
+                                    }
+
+                                }
+
+                            }
+                        }
+
+                        .RRbox {
+                            padding-top: 130px;
+
+                            .MainBigbox {
+                                // overflow: hidden;
+                                height: 100%;
+
+
+                                .allMainin {
+
+                                    height: 700px;
+
+
+                                    .mySwiper {
+                                        height: 550px;
+
+                                        .swiper-wrapper {
+
+                                            .swiper-slide {
+                                                background-color: rgba(255, 255, 255, 0);
+
+                                                .everyCardMain {
+                                                    // background-color: rgb(255, 255, 255);
+                                                    border: 1px dashed rgb(198, 195, 191);
+                                                    border-radius: 15px;
+                                                    box-shadow: 2px 2px 2px 1px rgba(97, 97, 97, 0.2);
+
+                                                    &:hover {
+                                                        box-shadow: 3px 4px 2px 1px rgba(73, 73, 73, 0.2);
+                                                    }
+
+                                                    h1 {
+                                                        background-color: rgb(206, 149, 106);
+                                                        color: rgb(255, 255, 255);
+                                                        font-weight: 400 !important;
+                                                        padding: 5px 0;
+                                                        margin: 15px 25px;
+                                                        border-radius: 10px;
+                                                    }
+
+                                                    p {
+                                                        color: rgb(255, 255, 255);
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+
+                                    .boxs {
+                                        height: 550px;
+
+
+
+                                        .everyCardMain {
+                                            border: 1px dashed rgb(198, 195, 191);
+                                            border-radius: 15px;
+                                            box-shadow: 2px 2px 2px 1px rgba(97, 97, 97, 0.2);
+
+                                            &:hover {
+                                                box-shadow: 3px 4px 2px 1px rgba(73, 73, 73, 0.2);
+                                            }
+
+                                            h1 {
+                                                background-color: rgb(206, 149, 106);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 400 !important;
+                                                padding: 5px 0;
+                                                margin: 15px 25px;
+                                                border-radius: 10px;
+                                            }
+
+                                            p {
+                                                color: rgb(255, 255, 255);
+                                            }
+                                        }
+                                    }
+
+
+
+
+
+
+
+                                }
+
+
+                            }
+
+
+                        }
+
+                        .today {
+                            width: 50px;
+                            height: 0px;
+                            color: rgb(78, 68, 68);
+
+                            p {
+                                font-size: 12px;
+                                color: rgb(200, 189, 141);
+                                margin: -20px 0 20px 0;
+                                text-align: center;
+                                position: absolute;
+                                bottom: 90px;
+                                left: 60%;
+                                transform: translateX(-40%);
+                            }
+                        }
+
+
+                    }
+                }
+
+
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
